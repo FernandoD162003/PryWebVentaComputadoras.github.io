@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Skynet</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+    <div class="marquee-container">
+        <div class="marquee-content">Fernando Diaz - 0900-24-25590 | Santiago Tahual - 0900-23-13350 | Arturo Chub - 0900-23-10324 </div>
+    </div>
+    <header class="hero">
+        <nav class="nav container">
+
+            <figure class="nav__logo">
+                <img class="logo__size" src="../images/logo.png" class="nav__img">
+            </figure>
+
+            <div class="nav__links" id="menu">
+                <a href="../index.html" class="nav__link">Acerca De</a>
+                <a href="./productos.html" class="nav__link">Productos</a>
+                <a href="./proveedores.html" class="nav__link">Proveedores</a>
+                <a href="./clientes.html" class="nav__link">Clientes</a>
+                <a href="#" class="nav__link">Contácto</a>
+            </div>
+
+            <a href="#menu" class="nav__menu">
+                <img src="../images/icon-hamburger.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="cta cta--nav">Request Invite</a>
+        </nav>
+        <main>
+            <div class="form-bg">
+            <form class="form">
+                <h2 class="form__title">¡Contáctanos!</h2>
+                <input type="text" class="form__name input" placeholder="Nombre:">
+                <input type="email" class="form__email input" placeholder="Email:">
+                <input type="email" class="form__email input" placeholder="Número:">
+                <textarea class="form__message input" placeholder="Mensaje:"></textarea>
+                <button class="form__submit" type="button" onclick="enviarFormulario()">Enviar</button>
+            </form>
+            </div>
+            <script>
+                // Función para manejar el envío del formulario
+                function enviarFormulario() {
+                    // Muestra un mensaje de alerta
+                    alert("¡Formulario enviado!");
+                }
+            </script>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+              <section class="footer__newsletter">
+                <h2 class="footer__title">Conoceréis la verdad y la verdad os hará libres </h2>
+                <p class="footer__paragraph footer__paragraph--newsletter">Recibe ofertas exclusivas en equipos informáticos
+                  suscribiéndote a nuestro boletín. Tu privacidad es importante para nosotros: nunca compartiremos tu
+                  información ni enviaremos correo no deseado</p>
+        
+                <form class="footer__form">
+        
+                  <input type="email" class="footer__input">
+                  <input type="submit" value="Suscribete" class="footer__cta">
+                </form>
+              </section>
+        
+              <section class="footer__content">
+                <h1 style="color: white; font-weight: bold; font-size: 60px;">Skynet</h1>
+                <img style="width: 150px; margin: 20px 0;" src="../images/umglogo.png" alt="">
+        
+                <div class="footer__contact">
+                  <img src="../images/icon-phone.svg" class="footer__img">
+                </div>
+        
+                <div class="footer__contact footer__contact--email">
+                  <img src="../images/icon-email.svg" class="footer__img">
+                </div>
+        
+                <div class="footer__social">
+                  <a href="https://www.facebook.com/u.marianogalvez/?locale=es_LA" class="footer__link">
+                    <img src="../images/fb.svg" class="footer__icon">
+                  </a>
+                  <a href="https://www.instagram.com/marianogalvez/?hl=es" class="footer__link">
+                    <img src="../images/instagram.svg" class="footer__icon">
+                  </a>
+                  <a href="https://x.com/marianogalvez?lang=es" class="footer__link">
+                    <img src="../images/twitter.svg" class="footer__icon">
+                  </a>
+                </div>
+        
+              </section>
+            </div>
+          </footer>
+</body>
+
+</html>
